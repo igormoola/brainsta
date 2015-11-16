@@ -1,0 +1,23 @@
+<Alloy>
+	<Window>
+		<View id="vista">
+			<ImageView id="logo"></ImageView>
+			<Label id="insta_lema">Inicia sesión para ver fotos y videos de tus amigos.</Label>
+			
+			<View id="botones">
+				<Button id="sesion_boton" onClick="sesion_click">Inicio Sesion</Button>
+				<Button id="login_boton" onClick="login_click">Registrarse</Button>
+			</View>
+		</View>
+		<View id="vista_login">
+			<TextField hintText="Nombre" class="nombre_input"></TextField>
+			<TextField hintText="Contrasena" class="contrasena_input"></TextField>
+			<TextField hintText="Confirmar Contrasena" class="contrasena2_input"></TextField>
+		</View>
+		<View id="vista_sesion">
+			<TextField hintText="Nombre" class="nombre_input" id="nombre"></TextField>
+			<TextField hintText="Contrasena" class="contrasena_input" id="contrasena"></TextField>
+			<Button id="entrar_boton" onClick="entrar">Entrar</Button>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,90 @@
+"#vista":{
+	backgroundImage:"image1.jpg",
+	height: "50%",
+	width: "100%",
+	top: "0px",
+}
+
+"#vista_login":{
+	backgroundColor: "#00897B",
+	height: "50%",
+	width: "100%",
+	top:"50%"
+}
+
+"#vista_sesion":{
+	backgroundColor: "#00897B",
+	visible:"false",
+	height: "50%",
+	width: "100%",
+	top:"50%"
+}
+
+"#logo":{
+	image:"insta_logo_blanco.png",
+	width:"300dp",
+	top:"15%"
+}
+
+"#insta_lema":{
+	color:"white",
+	left: "35dp",
+	top: "50%"
+}
+
+".nombre_input":{
+	backgroundColor:"#00897B",
+	width: "320dp",
+	height: "50dp",
+	top:"0dp",
+	left:"20dp",
+	color: "black",
+}
+
+".contrasena_input":{
+	backgroundColor:"#FFEB3B",
+	top:"50dp",
+	left:"20dp",
+	width: "320dp",
+	height: "50dp",
+    color: "#black",  
+    passwordMask:true   
+}
+
+".contrasena2_input":{
+	backgroundColor:"#C62828",
+	top:"100dp",
+	left:"20dp",
+	width: "320dp",
+	height: "50dp",
+    color: "#black",  
+    passwordMask:true
+}
+
+"#botones":{
+	top:"80%"
+}
+
+"#login_boton":{
+	width:'50%',
+	color:"white",
+	left:'50%',
+	backgroundColor: 'transparent',
+}
+
+"#sesion_boton":{
+	backgroundColor: "transparent",
+	color:"white",
+	width:'50%',
+	left:'0%',
+	opacity: 0.3
+}
+
+"#entrar_boton":{
+	backgroundColor: "#C62828",
+	top:"100dp",
+	left:"20dp",
+	width: "320dp",
+	height: "50dp",
+	color:"black"
+}
